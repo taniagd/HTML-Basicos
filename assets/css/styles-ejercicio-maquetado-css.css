@@ -1,0 +1,39 @@
+body {
+    background-color: lightgray;
+}
+
+.enc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align:center;
+    letter-spacing: 20px;
+}
+
+
+.item {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: gray;
+    padding: 1px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.expl {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: justify;
+    text-indent: 12px;
+}
+
+img {
+    float: left;
+}
+em {
+    color: red;
+}
+span {
+    color: black;
+    background: white;
+}

@@ -1,0 +1,31 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 80px;
+   font-weight: 700; 
+   font-style: italic;
+   text-decoration: underline purple;
+   text-transform: lowercase;
+}
+
+div {
+    height: 500px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 20px; /*Para separar dentro del elemento*/
+}
+.uno { /*Se coloca punto para hacer referencia a la clase y el nombre d ela clase nombrada en html*/ 
+    background-image: url('../images/shera.png');
+    background-size: cover;
+    background-position: right;
+
+}
+
+.dos {
+    background-color: hotpink;
+}

@@ -1,0 +1,23 @@
+.cajas {
+    max-width: 800px; /*Tamaño máximo que tendrá el contenedor. Se utilizan px, no porcentajes*/
+    /* min-width: 900px; Se aplica para tamaño mínimo del contenedor. Esta propiedad también es para el height*/
+    
+    background-color: cornflowerblue;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    margin: 10px;
+    border: 5px solid red;
+    float: left; /*Tiene tres valores: none, left y right*/
+    /*Rompe el flujo del html y para corregirlo, debemos hacer limpiado= clearfix*/
+
+}
+.clearfix{
+    float:none;
+    clear: both;
+}
