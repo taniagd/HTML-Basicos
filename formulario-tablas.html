@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title> Formularios y tablas</title>
+    </head>
+    <body>
+        <h1> Formularios y tablas</h1>
+
+        <table border= "2">
+            <tr>
+                <th> Lunes</th>
+                <th> Martes </th>
+                <th> Miércoles </th>
+                <th> Jueves </th>
+                <th> Viernes </th>
+                <th> Sábado </th>
+                <th> Domingo </th>
+                <th> Notas </th>
+            </tr>
+            <tr>
+                <td> Curso de JS </td>
+                <td> Curso de Bootstrap </td>
+                <td> Curso de Java </td>
+                <td> Curso de Springboot </td>
+                <td> Curso de HTML </td>
+                <td> Curso de Inglés </td>
+                <td> Videollamada con la pandilla </td>
+                <td rowspan="2"> No olvidar regalo de Jim </td>
+            </tr>
+            <tr>
+                <td> Bootcamp </td>
+                <td> Curso de JS </td>
+                <td> Curso de HTML </td>
+                <td> Llevar a Chiquitín al vet </td>
+                <td> Bootcamp </td>
+                <td> Videollamada con Frida </td>
+                <td> Trabajo </td>
+                <td> </td>
+            </tr>
+                <td> Curso de Inglés </td>
+                <td> Revisión tesis </td>
+                <td> Junta con Zuri y Juan </td>
+                <td> Curso de JS </td>
+                <td> Curso de Inglés </td>
+                <td> Curso html</td>
+                <td> Juegos con pandilla</td>
+                <td> Comprar medicamento a Chikis</td>
+        </table>
+
+        <hr />
+
+        <form method="POST">
+            <h3> Regístrate </h3>
+            <p>
+                <label for= "nombre"> Nombre completo: </label>
+                <input type= "text" name="nombre" placeholder= "Tania Belen..." required />
+            </p>
+            <p>
+                <label for="email"> Correo electrónico: </label>
+                <input type= "email" name="email" placeholder= "ejemplo@ejemplo.com" required/>
+            </p>
+            <p>
+                <label for= "password"> Contraseña: </label>
+                <input type="password" name= "password" required/>
+            </p>
+            <!-- <p>
+                <label for= "cumpleanio"> Cumpleaños: </label>
+                <input type= "number" name= "cumpleanio"/>
+            </p> -->
+            <p>
+                <select name="meses" id="">
+                    <option value="enero"> enero </option>
+                    <option value="febrero"> febrero </option>
+                    <option value="marzo"> marzo </option>
+                    <option value="abril"> abril </option>
+                </select>
+            </p>
+            <p>
+                <input type="checkbox" />
+                <label for=""> Opción 1 </label>
+            </p>
+            <p>
+                <input type="radio" name="color" value= "azul">
+                <label for="color"> azul </label>
+                <input type="radio" name="color" value= "verde">
+                <label for="color"> verde </label>
+                <input type="radio" name="color" value= "amarillo">
+                <label for="color"> amarillo </label>
+                <input type="radio" name="color" value= "rojo">
+                <label for="color"> rojo </label>
+                <input type="radio" name="color" value= "negro">
+                <label for="color"> negro </label>
+            </p>
+            <p>
+                <textarea name="muchotexto" id="" cols="150" rows="20"></textarea> 
+            </p>
+
+            <!-- <input type="submit" value="Registrar" /> -->
+            <button type="submit"> Registrar </button>
+        </form>
+
+    </body>
+</html>
