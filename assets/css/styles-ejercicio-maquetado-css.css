@@ -1,30 +1,38 @@
 body {
     background-color: lightgray;
+    margin: 10px 10%;
 }
 
 .enc {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     color: black;
     text-align:center;
-    letter-spacing: 20px;
+    letter-spacing: 12px;
 }
 
 
 .item {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 140%;
     color: white;
     background-color: gray;
-    padding: 1px;
-    margin-left: 100px;
-    margin-right: 100px;
+    height: 40px;
+    display: block;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+    clear: both; /* La propiedad clear especifica si un elemento puede estar al lado de elementos flotantes que lo preceden o si debe ser movido (cleared) debajo de ellos.*/
 }
 
 .expl {
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: black;
-    text-align:center;
-    text-indent: 12px;
+    text-align:justify;
+    text-indent: 10px;
+    float: right;
+    display:inline;
+    margin-inline-start: 60px;
+    margin-inline-end: 60px;
 }
 
 img {
