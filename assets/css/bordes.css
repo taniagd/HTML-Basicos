@@ -4,9 +4,17 @@
 }
 .one {
     background-color: #fafa31;
+    padding: 20px;
     margin-bottom: 10px;
-    border: 2px solid #000000;
+    border: 2px solid hsl(0, 0%, 0%);
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-top-left-radius: 20px; /*La propiedad radius permite redondear las esquinas de una figura. En este caso se usa border top (arriba) left (izquierda) + radius para redondera solo la esquina superior derecha*/
+/* border radius redondea las cuatro esquinas de una figura */
 }
+
 .two {
     background-color: #22b822;
+    border-radius: 50%;/* Todos los bordes se redondean. Con este porcentaje se crea un círculo perfecto*/
 }
