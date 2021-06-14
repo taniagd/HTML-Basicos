@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+}
+
+.box { /* Se trabajan los divs de manera general*/
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    margin: 30px 60px;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.A {
+    border-bottom-right-radius: 75px;
+}
+
+.B {
+    border-radius: 0 0 30% 0; /* Se asigna border-radius del 30% a la esquina inferior derecha*/
+}
+.C {
+    border-bottom-right-radius: 40px 70px;
+}
+
+.D {
+    border-radius: 45px 200px;
+}
+
+.E {
+    border-radius: 10%; /* Se asigna border-radius para todas las esquinas*/
+}
+
+.F {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    margin: 20px;
+    font-size:35px;
+    border-radius: 50%; /* Al ser un cuadrado, pues mide 150x150, se aplica border-radius de 50% y se crea un círculo perfecto*/
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    float: left;
+}
